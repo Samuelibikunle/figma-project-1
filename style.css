@@ -1,11 +1,14 @@
+
+
+
 .nav{
-  background-color:#080808;
+  background-color:#060606;
    height: 650px;
    font-family: monospace;
    color: #9C9C9C;
 }
 #nav{
-   background-color: #808080;  
+   background-color: #1B1B1B;  
 
 display: flex;
 align-items: center;
@@ -14,6 +17,15 @@ margin-left: 150px;
 margin-right: 150px;
 color: #9C9C9C;
 font-family: monospace;
+height:78px;
+border-radius: 0px 0px 5px 5px;
+}
+.it{
+    display: block;
+   
+}
+.pic{
+    
 }
 
 
@@ -52,15 +64,16 @@ color: #9C9C9C;
 .you{
     color: #ffffff;
     font-size:44px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: monospace
 }
 
 .images{
 display: flex;
-gap: 30px;
+gap: 10px;
 }
-#nav{
- 
+#nav li{
+ font-size: 14px;
+ text-align: center;
 
 }
 
@@ -101,6 +114,15 @@ margin-top: 50px;
     margin-top: 70px;
     color: #9C9C9C;
 }
+#your{
+    color: #ffffff;
+    font-family: monospace;
+    background-color: #3F8E00;
+   padding: 30px 55px;
+    border: none;
+    box-shadow: 2px 2px 4px #62BA1B;
+    border-radius: 5px;
+}
 
 .study{
     display: flex;
@@ -109,6 +131,9 @@ margin-top: 50px;
      margin-left: 150px;
      margin-top: 70px;
      color: #9C9C9C;
+}
+.home{
+    display: none;
 }
 .and{
     border: 1px;
@@ -181,15 +206,41 @@ margin-top: 20px;
     height: 40px;
     width: 350px;
 }
+
+.ok{
+
+}
+
+#your{
+    height: 40px;
+    font-size:12px ;
+    width: 200px;
+padding: 10px;
+margin-top: 20px;
+margin-left: 20px;}
+
+
+
+
+
 .message{
    height: 120px;
    width: 350px;
+}
+
+.chair{
+ 
+    font-family: monospace;
 }
 .op{
     margin-left: 480px;
     font-family: monospace;
     gap: 40px;
-   color: #9C9C9C;;
+   color: #9C9C9C;
+   gap: 500px;
+}
+.bottle{
+    margin-top: 40px;
 }
 #op{
     text-align: center;
@@ -205,15 +256,17 @@ margin-top: 20px;
     margin-left: 480px;
     font-family: monospace;
     gap: 40px;
-    background-color:#2AB090;
+    background-color:  #62BA1B;
 border: none;
 border-radius: 5px;
 color: white;
 margin-top: 20px;
-  box-shadow: 2px 2px 4px #62BA1B;
+  box-shadow: 2px 2px 4px #2AB090;
 }
 .fr{
     color: #9C9C9C;
+    text-align: center;
+    margin-top: -20px;
 }
 .test{
     height: 152px;
@@ -245,6 +298,19 @@ margin-top: 20px;
   
    
 }
+.ok{
+    font-size: 34px;
+    
+    color: #9C9C9C;
+    font-family: monospace;
+    padding: 20px;
+    text-align: center;
+}
+.bank{
+    text-align: center;
+}
+
+
 .coma{
    margin-left: 10px;
     margin-top: -20px;
@@ -256,6 +322,7 @@ justify-content: center;
 .gone{
     text-align: center;
     margin-top: 90px;
+    padding: 20px;
 }
 
 
@@ -270,54 +337,94 @@ justify-content: center;
     margin-bottom: -13px;
 }
 @media(max-width:414px) {
-   #nav{
-display: none;
+   body{
+    overflow-x:hidden;
+
 
    }
+    #nav{
+    background-color: #060606;
+    
+ }
+ #nav ul{
+display: none;
+ }
    .nav{
-height: 950px;
-margin-top: -80px;
-width: 600px;
-}
-#hero{
-    font-size: 18px;
-    margin-left: -80px;
-    flex-wrap: wrap;
-   
+    width: 400px;
+    height: 1000px;
+   }
+   .slow{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+   }
+   .hero{
+    flex-direction: column;
+    width: 200px;
+    margin-top: -20px;
+   }
+   .you{
+    font-size: 25px ;
+    margin-left: -100px;
+   }
+   .it{
+    font-size: 12px;
+    margin-left: -100px;
+   }
 
+   
+#you{
+    height: 40px;
+    font-size:12px ;
+    width: 200px;
+padding: 10px;
+margin: -100px; ;
+margin-top: 20px;
 }
-.you{
-    font-size: 50px;
-    margin-right: 60px;
+.pic{
+    width: 250px;
+    margin-top: -90px;
+    margin-left: -100px;
 }
 .images{
     flex-wrap: wrap;
-    gap: 5px;
-margin-top: 30px;
-   margin-left: -130px;
-}
-#you{
-    height: 100px;
-    width: 240px;
-    font-size: 20px;
-    margin-left: -20px;
-    margin-top: 95px;
-
-
- 
+    margin-left: -156px;
+    padding: 0px 20px;
+    width: 400px;
 }
 .case{
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -2px;
+    font-size: 10px;
 }
+#your{
+    height: 40px;
+    font-size:12px ;
+    width: 200px;
+padding: 10px;
+margin-top: 20px;
+margin-left: 20px;
 
+}
+.er{
+    font-size: 21px;
+    margin-top: 50px;
+}
+.if{
+    margin-left: 20px;
+}
+.work{
+    margin-left: 20px;
+}
+.fork{
+    margin-left: 20px;
+}
 
 .person{
     flex-wrap: wrap;
     margin-top: -px;
     margin-left: -2px;
-    gap: 1px;
 }
 .study{
     flex-wrap: wrap;
@@ -333,20 +440,27 @@ margin-top: 30px;
 
  
 }
+.chair{
+    margin-left: 16px;
+    font-family: monospace;
+}
 #test{
     flex-direction: column;
     margin-left: -10px;
-
+margin-top: 40px;
 }
   .test{
 
 height: 180px;
 width: 220px;
-gap: 10px;
+gap: 20px;
 padding: 10px 20px;
 margin-left: 40px;
 
   } 
+  .he{
+    margin-left: 20px;
+  }
   .mouse{
     flex-direction: column;
     margin-left: -10px;
@@ -357,31 +471,81 @@ margin-left: 40px;
   }
   .freak{
     width: 290px;
+    margin-top: 25px;
+  }
+  .and{
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  .bank{
+    font-size: 9px;
+    margin-left: -130px;
+    margin-top: -25px;
+    
+   
   }
   .speak{
     width:280px ;
     margin-left: 30px;
   }
+  .gone{
+    margin-left: -110px;
+    padding: 40px;
+   
+  }
+  .Email{
+    height:20px ;
+    width: 300px;
+
+  }
+  .message{
+    height:20px ;
+    width: 300px;
+  }
+
+  .Mobile{
+    height:20px ;
+    width: 300px;
+  }
   .yellow{
-    margin-left: 60px;
+    margin-left: 20px;
   }
   .blue{
-    margin-left: 60px;
+    margin-left: 20px;
+    
   }
   .green{
-    margin-left: 60px;
+    margin-left: 20px;
   }
   .op{
     flex-wrap: wrap;
-    margin-left: 5px;
+    margin-left: 20px;
     margin-top: 30px;
+    font-size: 11px;
   }
   .back{
     width: 600px;
     margin-left: -10px;
   }
   .key{
-    margin-left: 5px;
+    margin-left: 20px;
+    height:20px ;
+    width: 300px;
+    margin-top: 50px;
+  }
+  #op{
+    margin-top: 0px;
+  }
+  .your{
+
+  }
+
+
+  .ok{
+    font-size: 20px;
+    margin-left: -240px;
+margin-top: 60px;
+padding: 20px;
   }
   .footer{
     background-color: #1a1919;
@@ -395,7 +559,18 @@ margin-left: 40px;
 
   }
   .fr{
-    margin-left: px;
+    margin-left: -240px;
+    font-size: 9px;
 
   }
+
+
+
+
+
+
+
+
+
 }
+
