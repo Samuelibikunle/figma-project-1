@@ -337,11 +337,11 @@ justify-content: center;
     margin-bottom: -13px;
 }
 @media(max-width:414px) {
-   body{
-    overflow-x:hidden;
+  
 
-
-   }
+  body{
+    overflow-x: hidden;
+  }
     #nav{
     background-color: #060606;
     
@@ -434,7 +434,7 @@ margin-left: 20px;
 }
 .wagon{
  flex-wrap: wrap;
- width:500px;
+ width:410px;
  height: 1250px;
  margin-left: -7px;
 
@@ -524,7 +524,7 @@ margin-left: 40px;
     font-size: 11px;
   }
   .back{
-    width: 600px;
+    width: 410px;
     margin-left: -10px;
   }
   .key{
@@ -543,9 +543,10 @@ margin-left: 40px;
 
   .ok{
     font-size: 20px;
-    margin-left: -240px;
+    
 margin-top: 60px;
 padding: 20px;
+text-align: center;
   }
   .footer{
     background-color: #1a1919;
@@ -559,11 +560,11 @@ padding: 20px;
 
   }
   .fr{
-    margin-left: -240px;
-    font-size: 9px;
+    margin-left: 0px;
+    font-size: px;
 
   }
-
+  
 
 
 
